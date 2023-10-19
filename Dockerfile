@@ -1,9 +1,10 @@
 #!/bin/bash
 
-FROM nvidia/cuda:11.8.0-cudnn8-devel-centos7
+FROM continuumio/anaconda3
+
 ### 下载编译需要用到的软件 python
 
-RUN conda create -n zyf_dockerfile_test -y python=3.10
+RUN conda create -n zyf_dockerfile_test python=3.10 -y
 # 激活新环境
 RUN echo "conda activate zyf_dockerfile_test" >> ~/.bashrc
 
