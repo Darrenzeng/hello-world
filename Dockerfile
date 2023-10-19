@@ -1,7 +1,7 @@
 FROM nvidia/cuda:11.8.0-base-centos7
 ### 下载编译需要用到的软件 python
 
-RUN conda create -n zyf_dockerfile_test -y python=3.8
+RUN conda create -n zyf_dockerfile_test -y python=3.10
 # 激活新环境
 RUN echo "conda activate zyf_dockerfile_test" >> ~/.bashrc
 
