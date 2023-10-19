@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.8.0-base-centos7
+FROM nvidia/cuda:11.8.0-cudnn8-devel-centos7
 ### 下载编译需要用到的软件 python
 
 RUN conda create -n zyf_dockerfile_test -y python=3.10
