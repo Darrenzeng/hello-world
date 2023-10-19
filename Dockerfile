@@ -1,3 +1,5 @@
+#!/bin/bash
+
 FROM nvidia/cuda:11.8.0-cudnn8-devel-centos7
 ### 下载编译需要用到的软件 python
 
