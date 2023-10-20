@@ -9,7 +9,7 @@ RUN conda create -n zyf_dockerfile_test python=3.10 -y
 RUN echo "conda activate zyf_dockerfile_test" >> ~/.bashrc
 
 # 激活 Conda 环境
-SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
+SHELL ["conda", "run", "-n", "zyf_dockerfile_test", "/bin/bash", "-c"]
 
 # 安装所需的软件包
 RUN pip3 install --extra-index-url https://download.pytorch.org/whl/test/cu118 llama-recipes
