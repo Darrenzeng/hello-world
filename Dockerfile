@@ -16,8 +16,6 @@ RUN pip3 install flagai
 RUN pip install deepspeed
 RUN pip install peft
 
-RUN 
-
 RUN pip install bitsandbytes
 
 
