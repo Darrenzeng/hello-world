@@ -13,6 +13,7 @@ SHELL ["conda", "run", "-n", "zyf_aquila2", "/bin/bash", "-c"]
 
 # 安装所需的软件包
 RUN pip install flagai
+RUN pip install -U numpy
 RUN pip install deepspeed
 RUN pip install peft
 
