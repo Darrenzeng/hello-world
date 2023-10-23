@@ -12,7 +12,7 @@ RUN echo "conda activate zyf_aquila2" >> ~/.bashrc
 SHELL ["conda", "run", "-n", "zyf_aquila2", "/bin/bash", "-c"]
 
 # 安装所需的软件包
-RUN pip3 install flagai
+RUN pip install flagai
 RUN pip install deepspeed
 RUN pip install peft
 
