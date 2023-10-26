@@ -1,6 +1,6 @@
 #!/bin/bash
-#FROM nvcr.io/nvidia/pytorch:23.09-py3
-FROM nvcr.io/nvidia/pytorch:22.12-py3
+FROM nvcr.io/nvidia/pytorch:23.09-py3
+#FROM nvcr.io/nvidia/pytorch:22.12-py3
 # FROM continuumio/anaconda3
 
 # ### 下载编译需要用到的软件 python
